@@ -17,7 +17,7 @@ let formularios = [
     {nombre: "Formulario De Registro", link: "componentes/FormularioDeRegistro/registro.html"},
     {nombre: "formulario De Búsqueda", link: "componentes/ForumularioDEBusqueda/FomularioDeBus.html"},
     {nombre: "Formulario De Pedido Compras", link: "componentes/formularioDePeriodosDeCompras/periodosDeCompras.html"},
-    {nombre: "formulario De Comentarios Reseñas", link: "componentes/FormularioDeComentariosReseñas/indexComentariosReseña.html"}
+    {nombre: "formulario De Comentarios Resenas", link: "componentes/FormularioDeComentariosResenas/indexComentariosResena.html"}
 ];
 
 //forEach (for)
