@@ -1,0 +1,154 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    display: flex;
+    max-width: 1200px;
+    width: 90%;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.form-container {
+    padding: 3rem;
+    width: 50%;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+.texto {
+    font-size: 1.5rem;
+    color: #333333;
+    margin-bottom: 2rem;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.social-login button {
+    width: 48%;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn-facebook {
+    background-color: #4267B2;
+}
+
+.btn-xing {
+    background-color: #006567;
+}
+
+.or-divider {
+    text-align: center;
+    margin: 1.5rem 0;
+    font-size: 0.9rem;
+    color: #999999;
+}
+
+#Login label {
+    font-size: 1rem;
+    color: #333333;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+#Login input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #333333;
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.opciones label {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #333333;
+}
+
+.opciones .forgot-password {
+    color: #006567;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones button {
+    width: 48%;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn-login {
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: #ffffff;
+}
+
+.btn-signup {
+    background-color: #e0e0e0;
+    color: #333333;
+}
+
+.terms {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #999999;
+    text-align: center;
+}
+
+.terms a {
+    color: #006567;
+    text-decoration: none;
+}
+
+.banner {
+    width: 50%;
+    background: linear-gradient(90deg, #f39c12, #e74c3c, #8e44ad);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img {
+    width: 60%;
+    border-radius: 10px;
+}
