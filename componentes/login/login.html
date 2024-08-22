@@ -5,13 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="../../config/confing.css">
 </head>
 <body>
     
-<h2>Login</h2>
-
+    <div class="login-container">
+        <div class="form-container">
+            <div class="logo">🐶Housy</div>
+            <h2 class="texto">Welcome Back, Please login to your account.</h2>
+            <div class="social-login">
+                <button class="btn-facebook">🐶 Login with Facebook</button>
+                <button class="btn-xing">🐶 Login with Xing</button>
+            </div>
+            <span class="or-divider">- OR -</span>
+            <form id="Login">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email">
+    
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+    
+                <div class="opciones">
+                    <label for="remember-me">
+                        <input type="checkbox" id="remember-me"> Remember me
+                    </label>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+    
+                <div class="botones">
+                    <button class="btn-login">Login</button>
+                    <button class="btn-signup">Sign up</button>
+                </div>
+    
+                <p class="terms">By signing up, you agree to Housy's <a href="#">Terms and Conditions</a> & <a href="#">Privacy Policy</a></p>
+            </form>
+        </div>
+        <div class="banner">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE0F_sH-dOuJH9dgLGE9X2yfOY419WhE8Gdw&amp;s" alt="Banner Image">
+        </div>
+    </div>
+    
 <script src="login.js"></script>
 </body>
 </html>
